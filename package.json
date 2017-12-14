@@ -1,0 +1,19 @@
+{
+  "name": "tslint-config-dollarshaveclub",
+  "version": "1.0.0",
+  "description": "tslint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dollarshaveclub/tslint-config-dollarshaveclub.git"
+  },
+  "author": "Dollarshaveclub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dollarshaveclub/tslint-config-dollarshaveclub/issues"
+  },
+  "homepage": "https://github.com/dollarshaveclub/tslint-config-dollarshaveclub#readme"
+}
