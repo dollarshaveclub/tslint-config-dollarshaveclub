@@ -1,18 +1,16 @@
-# eslint-config-dollarshaveclub [![Build Status](https://travis-ci.org/dollarshaveclub/eslint-config-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/eslint-config-dollarshaveclub) [![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/eslint-config-dollarshaveclub.svg)](https://greenkeeper.io/)
-
-> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for Dollar Shave Club.
+# tslint-config-dollarshaveclub [![Build Status](https://travis-ci.org/dollarshaveclub/tslint-config-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/tslint-config-dollarshaveclub) [![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/tslint-config-dollarshaveclub.svg)](https://greenkeeper.io/)
 
 
 ## Installation
 
 ```
-$ npm install --save-dev eslint@3 eslint-config-dollarshaveclub
+$ npm install --save-dev tslint-config-dollarshaveclub
 ```
 
 
 ## Usage
 
-Once the `eslint-config-dollarshaveclub` package is installed, you can use it by specifying `dollarshaveclub`, `dollarshaveclub/ember`, or `dollarshaveclub/react` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the `tslint-config-dollarshaveclub` package is installed, you can use it by specifying `dollarshaveclub`, `dollarshaveclub/ember`, or `dollarshaveclub/react` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [TSLint configuration](http://eslint.org/docs/user-guide/configuring).
 
 For frameworkless JS modules:
 
@@ -22,14 +20,6 @@ For frameworkless JS modules:
   "rules": {
     // Additional, per-project rules...
   }
-}
-```
-
-For Ember projects:
-
-```js
-{
-  "extends": "dollarshaveclub/ember"
 }
 ```
 
