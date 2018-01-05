@@ -6,13 +6,13 @@
 const fs = require('fs')
 const exec = require('child_process').exec
 const path = require('path')
-const test = require('mocha')
 const globby = require('globby')
+const assert = require('assert')
 
-const passingFiles = globby.sync(['tests/fixtures/**/pass/*.js'])
-const failingFiles = globby.sync(['tests/fixtures/**/fail/*.js'])
+const passingFiles = globby.sync(['tests/fixtures/**/pass/*.ts'])
+const failingFiles = globby.sync(['tests/fixtures/**/fail/*.ts'])
 
-const TSLINT_BIN = require.resolve('tslint/bin/tslint')
+const TSLINT_BIN = 'npx tslint'
 
 passingFiles.forEach((passingFilename) => {
   it(`${passingFilename} should pass linting`, (done) => {
