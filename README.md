@@ -31,6 +31,13 @@ For React projects:
 }
 ```
 
+
+## Dependencies
+
+- [tslint](https://github.com/palantir/tslint)
+- [tslint-config-standard](https://github.com/blakeembrey/tslint-config-standard)
+- [tslint-react](https://github.com/palantir/tslint-react)
+
 ## License
 
 MIT
