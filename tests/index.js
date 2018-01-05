@@ -12,7 +12,7 @@ const assert = require('assert')
 const passingFiles = globby.sync(['tests/fixtures/**/pass/*.ts'])
 const failingFiles = globby.sync(['tests/fixtures/**/fail/*.ts'])
 
-const TSLINT_CMD = 'npx tslint -c tslint.js -p tests/tsconfig.json'
+const TSLINT_CMD = 'npx tslint -c tslint.js'
 
 passingFiles.forEach((passingFilename) => {
   it(`${passingFilename} should pass linting`, (done) => {
