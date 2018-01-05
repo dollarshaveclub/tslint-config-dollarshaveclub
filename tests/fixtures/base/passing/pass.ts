@@ -1,8 +1,8 @@
 
-const noSemiColons = 'please'
+const noSemiColons: String = 'please'
 console.log(noSemiColons)
 
-const trailingCommasPlease = [
+const trailingCommasPlease: Number[] = [
   1,
   2,
   3,
@@ -12,9 +12,9 @@ console.log(trailingCommasPlease)
 
 {
   async function foo () {
-    const myArray = [1, 2, 3]
+    const myArray: Number[] = [1, 2, 3]
     for (let somePromise of myArray) {
-      let nonPromise = await somePromise
+      let nonPromise: Number = await somePromise
       console.log(nonPromise)
     }
   }
