@@ -7,7 +7,7 @@ const x: Number[] = [
 
 const y: Number[] = [5, 6, 7, 8]
 
-const z: Number[] = {
+const z: Object = {
   a: 1,
   b: 2,
   c: 3,
