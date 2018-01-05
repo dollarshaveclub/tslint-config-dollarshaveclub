@@ -1,4 +1,7 @@
-# tslint-config-dollarshaveclub [![Build Status](https://travis-ci.org/dollarshaveclub/tslint-config-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/tslint-config-dollarshaveclub) [![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/tslint-config-dollarshaveclub.svg)](https://greenkeeper.io/)
+# tslint-config-dollarshaveclub 
+
+[![Build Status](https://travis-ci.org/dollarshaveclub/tslint-config-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/tslint-config-dollarshaveclub) 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/tslint-config-dollarshaveclub.svg)](https://greenkeeper.io/)
 
 
 ## Installation
@@ -10,7 +13,7 @@ $ npm install --save-dev tslint-config-dollarshaveclub
 
 ## Usage
 
-Once the `tslint-config-dollarshaveclub` package is installed, you can use it by specifying `dollarshaveclub`, `dollarshaveclub/ember`, or `dollarshaveclub/react` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [TSLint configuration](http://eslint.org/docs/user-guide/configuring).
+Once the `tslint-config-dollarshaveclub` package is installed, it can be used by specifying `dollarshaveclub`, or `dollarshaveclub/react`.
 
 For frameworkless JS modules:
 
@@ -32,11 +35,14 @@ For React projects:
 ```
 
 
-## Dependencies
+## DevDependencies
 
-- [tslint](https://github.com/palantir/tslint)
-- [tslint-config-standard](https://github.com/blakeembrey/tslint-config-standard)
-- [tslint-react](https://github.com/palantir/tslint-react)
+- **[globby](https://github.com/sindresorhus/globby):** used for testing all test files in `tests/`.
+- **[mocha](https://mochajs.org/):** used for testing.
+- **[tslint](https://github.com/palantir/tslint):** used for linting typescript (`.ts`) files.
+- **[tslint-config-standard](https://github.com/blakeembrey/tslint-config-standard):** extends `tslint`.
+- **[tslint-react](https://github.com/palantir/tslint-react):** extends `tslint` for `react`.
+- **[typescript](https://github.com/Microsoft/TypeScript):** add type checking for JavaScript.
 
 ## License
 

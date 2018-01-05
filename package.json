@@ -4,7 +4,7 @@
   "description": "tslint configuration for Dollar Shave Club",
   "main": "tslint.js",
   "scripts": {
-    "test": "test"
+    "test": "npx mocha tests/index.js --timeout 10s"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/dollarshaveclub/tslint-config-dollarshaveclub#readme",
   "devDependencies": {
+    "globby": "^7.1.1",
+    "mocha": "^4.1.0",
     "tslint": "^5.8.0",
     "tslint-config-standard": "^7.0.0",
     "tslint-react": "^3.3.3",
