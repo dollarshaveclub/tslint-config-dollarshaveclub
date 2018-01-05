@@ -1,6 +1,6 @@
 {
   "include": [
-    "rules/**/*"
+    "fixtures/**/**/*"
   ],
   "compilerOptions": {
     "target": "esnext",
