@@ -3,6 +3,10 @@
 [![Build Status](https://travis-ci.org/dollarshaveclub/tslint-config-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/tslint-config-dollarshaveclub)
 [![Greenkeeper badge](https://badges.greenkeeper.io/dollarshaveclub/tslint-config-dollarshaveclub.svg)](https://greenkeeper.io/)
 
+This repository contains Dollar Shave Club [Tslint](https://palantir.github.io/tslint/) rules.
+
+This project is beta. It will be published soon.
+
 ## Installation
 
 ```
