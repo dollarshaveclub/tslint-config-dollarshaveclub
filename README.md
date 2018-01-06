@@ -16,7 +16,7 @@ $ npm install --save-dev tslint-config-dollarshaveclub
 ## Usage
 
 Once the `tslint-config-dollarshaveclub` package is installed, used by specifying `dollarshaveclub`.
-- This project will soon sport React ts linting.
+- This project will soon support React ts linting.
 
 For frameworkless JavaScript modules:
 
