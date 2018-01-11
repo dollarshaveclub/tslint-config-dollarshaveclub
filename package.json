@@ -17,14 +17,16 @@
     "url": "https://github.com/dollarshaveclub/tslint-config-dollarshaveclub/issues"
   },
   "homepage": "https://github.com/dollarshaveclub/tslint-config-dollarshaveclub#readme",
+  "dependencies": {
+    "tslint": "^5.8.0",
+    "tslint-config-standard": "^7.0.0",
+    "tslint-react": "^3.3.3"
+  },
   "devDependencies": {
     "eslint": "^4.15.0",
     "eslint-config-dollarshaveclub": "^3.0.4",
     "globby": "^7.1.1",
     "mocha": "^4.1.0",
-    "tslint": "^5.8.0",
-    "tslint-config-standard": "^7.0.0",
-    "tslint-react": "^3.3.3",
     "typescript": "^2.6.2"
   }
 }

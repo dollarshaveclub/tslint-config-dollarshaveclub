@@ -1,0 +1,6 @@
+{
+  extends: ['eslint-config-dollarshaveclub'],
+  globals: {
+    it: true
+  },
+}
