@@ -1,11 +1,4 @@
-/*
-  tests
-  ---
-
-*/
-const fs = require('fs')
 const exec = require('child_process').exec
-const path = require('path')
 const globby = require('globby')
 const assert = require('assert')
 
@@ -40,4 +33,3 @@ failingFiles.forEach((failingFilename) => {
     })
   })
 })
-

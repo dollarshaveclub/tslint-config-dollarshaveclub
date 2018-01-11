@@ -1,9 +1,10 @@
 {
   "name": "tslint-config-dollarshaveclub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tslint configuration for Dollar Shave Club",
   "main": "tslint.js",
   "scripts": {
+    "eslint": "npx eslint . --fix",
     "test": "mocha tests/index.js --timeout 10s"
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/dollarshaveclub/tslint-config-dollarshaveclub#readme",
   "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-dollarshaveclub": "^3.0.4",
     "globby": "^7.1.1",
     "mocha": "^4.1.0",
     "tslint": "^5.8.0",
