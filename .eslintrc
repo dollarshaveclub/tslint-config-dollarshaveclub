@@ -1,6 +1,4 @@
 {
-  extends: ['eslint-config-dollarshaveclub'],
-  globals: {
-    it: true
-  },
+  extends: ['dollarshaveclub'],
+  env: { mocha: true }
 }
