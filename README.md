@@ -33,7 +33,7 @@ For React projects:
 
 ```js
 {
-  "extends": "dollarshaveclub/react"
+  "extends": "tslint-config-dollarshaveclub/react"
 }
 ```
 
