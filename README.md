@@ -23,9 +23,16 @@ For frameworkless JavaScript modules:
 ```js
 // tslint.json
 {
-  "extends": "dollarshaveclub",
+  "extends": [
+    "tslint-config-dollarshaveclub"
+  ],
   "rules": {
-    // Additional, per-project rules...
+    "no-unnecessary-type-assertion": false,
+    "trailing-comma": false,
+    "semicolon": [
+      true,
+      "never"
+    ]
   }
 }
 ```
