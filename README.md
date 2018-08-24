@@ -21,6 +21,7 @@ Once the `tslint-config-dollarshaveclub` package is installed, used by specifyin
 For frameworkless JavaScript modules:
 
 ```js
+// tslint.json
 {
   "extends": "dollarshaveclub",
   "rules": {
@@ -32,6 +33,7 @@ For frameworkless JavaScript modules:
 For React projects:
 
 ```js
+// tslint.json
 {
   "extends": "tslint-config-dollarshaveclub/react"
 }
