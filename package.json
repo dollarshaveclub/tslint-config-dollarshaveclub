@@ -19,7 +19,7 @@
   "homepage": "https://github.com/dollarshaveclub/tslint-config-dollarshaveclub#readme",
   "dependencies": {
     "tslint": "^5.8.0",
-    "tslint-config-standard": "^7.0.0",
+    "tslint-config-standard": "^8.0.0",
     "tslint-react": "^3.3.3"
   },
   "devDependencies": {
