@@ -7,5 +7,10 @@ module.exports = {
     'no-empty': false,
     'no-floating-promises': false,
     'trailing-comma': [true, { multiline: 'always', singleline: 'never' }],
+    'import-blacklist': [
+      true,
+      ['^@dollarshaveclub/.*/src/.*'], // prevent importing from src
+
+    ],
   },
 }

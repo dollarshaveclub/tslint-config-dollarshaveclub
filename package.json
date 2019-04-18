@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-dollarshaveclub",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "tslint configuration for Dollar Shave Club",
   "main": "tslint.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/dollarshaveclub/tslint-config-dollarshaveclub#readme",
   "dependencies": {
-    "tslint": "^5.8.0",
+    "tslint": "^5.16.0",
     "tslint-config-standard": "^8.0.0",
     "tslint-react": "^3.3.3"
   },
