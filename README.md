@@ -1,3 +1,6 @@
+# THIS REPOSITORY HAS BEEN MERGED INTO [FACE CONFIG](dollarshaveclub/face-config)
+You can find the latest version in our [`face-config`](dollarshaveclub/face-config) monorepo, where it will continue to be developed
+
 # tslint-config-dollarshaveclub
 
 [![Build Status](https://travis-ci.org/dollarshaveclub/tslint-config-dollarshaveclub.svg?branch=master)](https://travis-ci.org/dollarshaveclub/tslint-config-dollarshaveclub)
